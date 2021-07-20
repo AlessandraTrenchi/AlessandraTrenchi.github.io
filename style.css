@@ -187,8 +187,8 @@ body {
 }
 #seguici {
   padding-left: 0.5rem;
-  padding-top: 3rem;
-  margin-left: 2.5rem;
+  padding-top: 2rem;
+  margin-left: 5rem;
 }
 #contattaci {
   padding-top: 2rem;
@@ -204,8 +204,7 @@ body {
 }
 
 #doc{
-  padding-top: 1.5rem;
-  margin-left: 2rem;
+  padding-top: 4rem;
 }
 .contacts {
   display: table;
@@ -226,6 +225,10 @@ body {
   display: table;
   clear: both;
  }
+#seguici {
+  url ('IMG/instagram.png');
+  float:left;
+}
 
 
 @media(max-width:1000px){
