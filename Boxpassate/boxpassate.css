@@ -10,11 +10,9 @@
   text-align: center;
   visibility: visible;
 }
-#boxtop {
-  background-image:url(../IMG/pav.png);
-}
+
 h2 {
-  padding-top: 12rem;
+  padding-top: 4rem;
   font-family: 'Cinzel', serif;
   font-size: xx-large;
   text-align: inline;
