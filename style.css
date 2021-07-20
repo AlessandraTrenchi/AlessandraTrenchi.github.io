@@ -166,7 +166,7 @@ body {
   font-size: x-large;
   font-weight: 300;
 }
-#prodottibox {
+.prodottibox {
   color: yellow;
   font-size: xx-large;
   font-weight: bolder;
