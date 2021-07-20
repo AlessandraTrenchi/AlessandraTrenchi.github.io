@@ -1,0 +1,239 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  background-color: yellow;
+  z-index: 1;
+  padding-bottom: 1rem;
+  width: 100%;
+  height:110px;
+  font-size  : 2rem;
+  text-align: center;
+  visibility: visible;
+}
+#navbar h1 {
+  font-family: 'Lobster', sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  border-top: solid 0.3em blue;
+  border-bottom: solid 0.3em orange;
+  border-right: solid 0.3em red;
+  border-left: solid 0.3em green;
+  border-radius: 2%;
+  color: #320466;
+  background-color: #B4FBFA;
+  text-align: center;
+}
+.favorite-styled {
+    top:2rem;
+    margin-top: 0.5rem;
+    border: 0;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration-color: green;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    border-color: #DF38E5;
+    background-color: #B4FBFA;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    text-decoration: dotted;
+}
+
+.favorite-styled:hover {
+    background-color:#4DB03F;
+}
+
+.favorite-styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+button a {
+  margin: 0;
+  border: 0;
+  border-color: #1C2967;
+  top: 4em;;
+  font-size:1rem;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: inline;
+  z-index: 1;
+  border: 0.3em solid #1C2967;
+  display: flex;
+  border-style: double;
+}
+h4{
+  text-decoration-color: #1C2967;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
+  color: yellow;
+}
+.flex-container {
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+#micagalline, #esperti{
+    width: 100%;
+    height: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+}
+
+#italia {
+    background-image: url(IMG/pav.jpeg);
+}
+h2#finalmente, #valore {
+  font-family: 'Cinzel', serif;
+  font-size: xx-large;
+  text-align: inline;
+  text-align-last: center;
+  padding-top: 40rem;
+  border-top: 3rem;
+  color: yellow;
+}
+
+#valore {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-top:3rem;
+  margin-bottom: 5rem;
+  padding-top: 2rem;
+  font-weight: 600;
+  transform: translateY(45vh);
+  text-align: center;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: #1C2967;
+}
+
+#iscriviti {
+  font-size: xx-large;
+  font-weight: 800;
+  transform: translateY(45vh);
+  font-family: 'Cormorant Garamond', serif;
+  display: inline-block;
+  margin-top: 3rem;
+  padding-top: 0rem;
+  text align: center;
+}
+#abbonati{
+  margin-top:1rem;
+  color: blue;
+}
+#abbonandoti {
+  font-family: 'Cinzel', serif;
+  margin-top: 3rem;
+  font-size: x-large;
+}
+
+#makeupbrands {
+  font-family: 'Cinzel', serif;
+}
+h5 {
+  font-size: xx-large;
+  color: #1C2967;
+  font-family: 'Cinzel', serif;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+body {
+  background-color: #70B866;
+  text-align: center;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.prodotti{
+  font-family: 'Cormorant Garamond', serif;
+  display: list-item;
+  list-style-position: inside;
+  font-weight: 300;
+  margin-top: 1.5rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  text-decoration-color: #1C2967;
+  list-style-type: disc;
+  color: #1C2967;
+  font-size: x-large;
+  font-weight: 300;
+}
+#prodottibox {
+  color: yellow;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+#footer {
+  position: sticky;
+  top:3rem;
+  background-color: yellow;
+  margin-top: 3rem;
+  margin-bottom: 0px;
+  padding-bottom: 9rem;
+  height:100px;
+  width:100%;
+  font-size  : x-large;
+  visibility:visible;
+}
+#seguici {
+  padding-left: 0.5rem;
+  padding-top: 3rem;
+  margin-left: 2.5rem;
+}
+#contattaci {
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+#contattaci, #seguici, #doc {
+  font-family: 'Cinzel', serif;
+  color: #70B866;
+  font-weight: bold;
+  font-size  : x-large;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+#doc{
+  padding-top: 1.5rem;
+  margin-left: 2rem;
+}
+.contacts {
+  display: table;
+  list-style-position: inside;
+  font-size: small;
+  color: #70B866;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+  float: right;
+  clear: left;
+  width: 33%;
+ }
+
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+
+@media(max-width:1000px){
+    #navbar{
+        background-color: #1C2967;
+    }
+    #footer {
+      background-color: #1C2967;
+    }
+
+}
