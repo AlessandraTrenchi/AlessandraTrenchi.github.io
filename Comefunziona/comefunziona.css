@@ -184,7 +184,7 @@ h5 {
       background-color: yellow;
       margin-top: 3rem;
       margin-bottom: 0px;
-      padding-bottom: 11rem;
+      padding-bottom: 12rem;
       height:100px;
       width:100%;
       font-size  : x-large;
@@ -207,7 +207,7 @@ h5 {
       font-size  : x-large;
       margin-top: 0.5rem;
       text-align: center;
-      padding-bottom: 2rem;
+      padding-top: 1rem;
     }
 
     #doc{
