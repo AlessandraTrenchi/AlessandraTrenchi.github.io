@@ -1,87 +1,252 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="../reset.css">
-  <link rel="stylesheet" href="Comefunziona/comefunziona.css">
-  <link rel="stylesheet" href="../index.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cormorant+Garamond:wght@300&family=Lobster&family=Noto+Sans+SC:wght@500&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-  <title>Colorful Peacocks Cosmetics</title>
-</head>
-<body>
-  <nav id="navbar">
-    <div class= "flex-container">
-      <a><h1>Colorful Peacocks Cosmetics</h1></a>
-      <button class="favorite-styled"
-        type="button"><a href="../index.html">HOME</a></button>
-        <button class="favorite-styled"
-          type="button"><a href="comefunziona.html">COME FUNZIONA</a></button>
-          <button class="favorite-styled"
-            type="button"><a href="../Boxpassate/boxpassate.html">BOX PASSATE</a></button>
-      <button class="favorite-styled"
-        type="button"><a href="#login">LOGIN</a>
-      </button>
-      <span class="chart" style='font-size:60px;'>&#128722;</span>
-    </div>
- </nav>
- <div>
- <section id="colorful">
- <h2 id="color">Riceverai da 4 a 6 prodotti full-size, dal valore doppio rispetto a quello della box</h2>
-</div>
-<div>
-  <h2 id="mese">Ogni mese un imperdibile nuovo tema!</h2>
-<div class="column">
-<h3 class="mesi">ACQUISTO SINGOLO </h3>
-<p align='justify'>40€/mese</p>
-<p align='justify'><button class="favorite-styled"
-     type="button"><a href="#seleziona">SELEZIONA</a></button></p>
-<p align='justify'>*Ti saranno addebitati 40€ al mese, una sola volta. Provaci!</p>
-</div>
-<div class="column">
-<h3 class="mesi"> 3 MESI </h3>
-<p class="euro" align='justify'> 35€/mese</p>
-<p align='justify'><button class="favorite-styled"
-     type="button"><a href="#seleziona">SELEZIONA</a></button></p>
-<p class="euro" align='justify'> *Ti saranno addebitati 105€, pagamento anticipato.</p>
-<p align='justify'><u>Risparmi 15€!</u></p>
-</div>
-<div class="column">
-<h3 class="mesi"> 6 MESI </h3>
-<p class="euro" align='justify'> 33€/mese</p>
-<p align='justify'><button class="favorite-styled"
-     type="button"><a href="#seleziona">SELEZIONA</a></button></p>
-<p class="euro" align='justify'> *Ti saranno addebitati 198€, pagamento anticipato.</p>
-<p  class="euro" align='justify'><u>Risparmi 42€!</u></p>
-</div>
-<div class="column">
-  <h3 class="mesi"> 3 MESI </h3>
-  <p class="euro" align='justify'> 32€/mese</p>
-  <p align='justify'><button class="favorite-styled"
-       type="button"><a href="#seleziona">SELEZIONA</a></button></p>
-  <p class="euro" align='justify'> *Ti saranno addebitati 384€, pagamento anticipato.</p>
-  <p class="euro" align='justify'><u>Risparmi 96€!</u></p>
-</div>
-<div>
-  <section id="descrizione">
-  <h4 id="stop">Ogni prodotto contenuto nelle box viene inserito in descrizione.</h4>
-  <h4>Controlla le nostre <button class="favorite-styled"
-      type="button"><a href="../Boxpassate/boxpassate.html">BOX PASSATE</a></button></h4>
-    </section>
-</div>
-</body>
-<footer>
-  <nav id="footer">
-    <div class="flex-container">
-      <ol> <h2 id="contattaci">CONTATTACI</h2>
-        <li class="contacts">Telefono: 00393456726113</li>
-        <li class="contacts">E-mail: alessandra.trenchi@studio.unibo.it</li>
-        <li class="contacts">Orari: 9AM-18PM</li>
-      </ol>
-    <a href='https://www.instagram.com/colorfulpeacockscosmetics/' target='_blank'><h5 id="seguici">SEGUICI SUI SOCIAL</h5></a>
-    <a href="../Documentazione/documentazione.html"><h5 id="doc">DOCUMENTAZIONE</h5></a>
-  </nav>
-</footer>
-</html>
+#navbar {
+  position: fixed;
+  top: 0;
+  background-color: yellow;
+  z-index: 1;
+  padding-bottom: 1rem;
+  width: 100%;
+  height:110px;
+  font-size  : 2rem;
+  text-align: center;
+  visibility: visible;
+}
+#navbar h1 {
+  font-family: 'Lobster', sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  border-top: solid 0.3em blue;
+  border-bottom: solid 0.3em orange;
+  border-right: solid 0.3em red;
+  border-left: solid 0.3em green;
+  border-radius: 2%;
+  color: #320466;
+  background-color: #B4FBFA;
+  text-align: center;
+}
+.favorite-styled {
+    top:2rem;
+    margin-top: 0.5rem;
+    border: 0;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration-color: green;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    border-color: #DF38E5;
+    background-color: #B4FBFA;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    text-decoration: dotted;
+}
+
+.favorite-styled:hover {
+    background-color:#4DB03F;
+}
+
+.favorite-styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+button a {
+  margin: 0;
+  border: 0;
+  border-color: #1C2967;
+  top: 4em;;
+  font-size:1rem;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: inline;
+  z-index: 1;
+  border: 0.3em solid #1C2967;
+  display: flex;
+  border-style: double;
+}
+body {
+ width: 100%;
+ font-family: 'Cinzel', serif;
+ color: #000000;
+}
+#colorful {
+  background-image: url(../IMG/pav.jpeg);
+  margin-bottom: 7.8rem;
+}
+p {
+ margin: 3%;
+ font-family: 'Cormorant Garamond', serif;
+}
+
+ .column {
+ float: left;
+ clear: right;
+ width: 22%;
+}
+
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+#color {
+  font-family: 'Cinzel', serif;
+  font-size: xx-large;
+  text-align: inline;
+  text-align-last: center;
+  padding-top: 40rem;
+  border-top: 3rem;
+  color: yellow;
+}
+#mese {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: x-large;
+  color:#1C2967;
+  font-weight: bolder;
+  color: #1C2967;
+}
+.mesi {
+  font-weight: bolder;
+  font-size: x-large;
+  color:yellow;
+  font-family: 'Cinzel', serif;
+}
+p {
+  font-weight: bold;
+  color: blue;
+  font-size: x-large;
+}
+h2, h3, h4 {
+ text-align: center;
+}
+
+.flex-container {
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+  background-color: #70B866;
+  text-align: center;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+h4{
+  padding-top: 2rem;
+  text-decoration-color: #1C2967;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
+  color:  #1C2967;
+}
+#descrizione {
+  padding-top: 10rem;
+  color: #1C2967;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: x-large;
+}
+
+.flex-container {
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+h5 {
+  font-size: xx-large;
+  color: #1C2967;
+  font-family: 'Cinzel', serif;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+    }
+  body {
+      background-color: #70B866;
+      text-align: center;
+      flex-direction:row;
+      flex-wrap: wrap;
+    }
+
+#footer {
+      position: sticky;
+      top:3rem;
+      background-color: yellow;
+      margin-top: 3rem;
+      padding-bottom: 10rem;
+      height:100px;
+      width:100%;
+      font-size  : x-large;
+      visibility:visible;
+    }
+    #seguici {
+      padding-left: 0.5rem;
+      padding-top: 2rem;
+      margin-left: 5rem;
+    }
+    #contattaci {
+      margin-top: 10rem;
+      padding-top: 2rem;
+      margin-bottom: 0;
+    }
+    #contattaci, #seguici, #doc {
+      font-family: 'Cinzel', serif;
+      color: #70B866;
+      font-weight: bold;
+      font-size  : x-large;
+      margin-top: 0.5rem;
+      text-align: center;
+      padding-top: 1rem;
+    }
+
+    #doc{
+      padding-top: 4rem;
+      margin-bottom: 0;
+    }
+    .contacts {
+      display: table;
+      list-style-position: inside;
+      font-size: small;
+      color: #70B866;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+      vertical-align: middle;
+      float: right;
+      clear: left;
+      width: 33%;
+     }
+
+     .row:after {
+      content: "";
+      display: table;
+      clear: both;
+     }
+    #seguici {
+      url ('IMG/instagram.png');
+      float:left;
+    }
+
+
+    @media(max-width:1000px){
+        #navbar{
+            background-color: #1C2967;
+        }
+        #footer {
+          background-color: #1C2967;
+        }
+
+    }
+
+
+}
